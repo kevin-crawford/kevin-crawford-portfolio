@@ -2,10 +2,13 @@ import React from "react";
 
 const Navigation = () => (
   <div className="navigation-container">
+    <h1>Navigation</h1>
     <nav className="navigation">
-      <li>Projects</li>
-      <li>Volunteer Work</li>
-      <li>Contact</li>
+      <ul>
+        <li>Projects</li>
+        <li>Volunteer Work</li>
+        <li>Contact</li>
+      </ul>
     </nav>
   </div>
 );
