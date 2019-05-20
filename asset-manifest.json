@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kevin-crawford-portfolio/static/css/main.e746d9e4.chunk.css",
+    "main.js": "/kevin-crawford-portfolio/static/js/main.7ef0ebb5.chunk.js",
+    "main.js.map": "/kevin-crawford-portfolio/static/js/main.7ef0ebb5.chunk.js.map",
+    "runtime~main.js": "/kevin-crawford-portfolio/static/js/runtime~main.38cb528b.js",
+    "runtime~main.js.map": "/kevin-crawford-portfolio/static/js/runtime~main.38cb528b.js.map",
+    "static/js/2.bb4025ab.chunk.js": "/kevin-crawford-portfolio/static/js/2.bb4025ab.chunk.js",
+    "static/js/2.bb4025ab.chunk.js.map": "/kevin-crawford-portfolio/static/js/2.bb4025ab.chunk.js.map",
+    "index.html": "/kevin-crawford-portfolio/index.html",
+    "precache-manifest.74d4eda59c39d0b02c41f9c9e8e1515a.js": "/kevin-crawford-portfolio/precache-manifest.74d4eda59c39d0b02c41f9c9e8e1515a.js",
+    "service-worker.js": "/kevin-crawford-portfolio/service-worker.js",
+    "static/css/main.e746d9e4.chunk.css.map": "/kevin-crawford-portfolio/static/css/main.e746d9e4.chunk.css.map",
+    "static/media/coffee-shop.jpg": "/kevin-crawford-portfolio/static/media/coffee-shop.dfd8c735.jpg"
+  }
+}
