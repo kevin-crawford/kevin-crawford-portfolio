@@ -1,10 +1,12 @@
 import React from "react";
 
+import { Title, SplashStyles } from "../styles/styled-components";
+
 const Splash = () => (
-  <div className="splash-wrapper">
-    <h1>Splash Bio</h1>
+  <SplashStyles>
+    <Title>Splash Bio</Title>
     <p>This is where I will talk about myself</p>
-  </div>
+  </SplashStyles>
 );
 
 export default Splash;

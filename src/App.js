@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/app.css";
 
 // Components
 import Navigation from "./components/Navigation";
@@ -12,10 +13,12 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-      <Splash />
-      <Projects />
-      <Volunteer />
-      <Contact />
+      <main>
+        <Splash />
+        <Projects />
+        <Volunteer />
+        <Contact />
+      </main>
       <Footer />
     </div>
   );

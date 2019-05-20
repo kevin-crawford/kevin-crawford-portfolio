@@ -1,7 +1,7 @@
 import React from "react";
 
 const Volunteer = () => (
-  <div className="volunteer-wrapper">
+  <div id="volunteer">
     <h1>Volunteer Work</h1>
     <ul>
       <li>Hack For LA; HEART PROJECT</li>
