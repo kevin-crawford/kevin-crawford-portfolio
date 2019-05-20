@@ -1,32 +1,22 @@
 import styled from "styled-components";
 import CoffeeShop from "../images/coffee-shop.jpg";
 
-const NavStyles = styled.ul`
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-self: end;
-  font-size: 2rem;
-  position: absolute;
-  a {
-    display: flex;
-    text-transform: uppercase;
-    position: relative;
-    align-items: center;
-    font-weight: 900;
-    font-size: 1em;
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-    padding: 1rem 3rem;
-  }
+const NavStyles = styled.aside`
+  padding-top: 2em;
+  padding-bottom: 40px;
+  float: left;
+  z-index: 1001;
+  height: 100%;
+  width: 300px;
+  background: #585859;
+  position: fixed;
 `;
 
 const SplashStyles = styled.section`
   padding: 4em;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url(${CoffeeShop});
-  height: 45vh;
+  height: 90vh;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
