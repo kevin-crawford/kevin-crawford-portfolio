@@ -1,26 +1,36 @@
 import React from "react";
-import { ProjectStyles, Project } from "../styles/styled-components";
+import { ProjectStyles, Project } from "../styles/ProjectStyles";
+import {
+  Row,
+  ColMd12,
+  ColMd6,
+  Heading,
+  HeadingMeta
+} from "../styles/layout-components";
 
 const Projects = () => (
   <ProjectStyles id="projects">
-    <div className="row">
-      <h1>Projects</h1>
-    </div>
-
+    <Row>
+      <ColMd6>
+        <Heading>Projects</Heading>
+      </ColMd6>
+    </Row>
     {/* PROJECT 1 */}
-    <div className="row">
-      <Project className="project">
-        <h3>Automate</h3>
-        <span>Website</span>
-        <div className="project-details">
-          <h3>Codebase</h3>
-          <p>lorem ipsum lorem ipsum lorem ipsum </p>
-        </div>
-      </Project>
-    </div>
+    <Row>
+      <ColMd12>
+        <Project className="project">
+          <h3>Automate</h3>
+          <span>Website</span>
+          <div className="project-details">
+            <h3>Codebase</h3>
+            <p>lorem ipsum lorem ipsum lorem ipsum </p>
+          </div>
+        </Project>
+      </ColMd12>
+    </Row>
 
     {/* PROJECT 2 */}
-    <div className="row">
+    <Row className="row">
       <Project className="project">
         <h3>Social Rift</h3>
         <span>Website</span>
@@ -29,10 +39,10 @@ const Projects = () => (
           <p>lorem ipsum lorem ipsum lorem ipsum </p>
         </div>
       </Project>
-    </div>
+    </Row>
 
     {/* PROJECT 3 */}
-    <div className="row">
+    <Row className="row">
       <Project className="project">
         <h3>Crosspass Podcast</h3>
         <span>Website</span>
@@ -41,7 +51,7 @@ const Projects = () => (
           <p>lorem ipsum lorem ipsum lorem ipsum </p>
         </div>
       </Project>
-    </div>
+    </Row>
   </ProjectStyles>
 );
 

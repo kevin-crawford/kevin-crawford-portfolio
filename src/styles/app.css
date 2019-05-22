@@ -7,9 +7,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 main {
-  width: calc(100% - 300px);
+  width: calc(100% - 250px);
+  overflow-x: hidden;
   float: right;
+}
+
+@media (max-width: 750px) {
+  main {
+    width: 100%;
+  }
 }
