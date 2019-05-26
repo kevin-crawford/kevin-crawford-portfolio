@@ -45,21 +45,21 @@ const Navigation = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fab fa-linkedin fa-2x" />
+        <i className="fab fa-linkedin fa-2x" />
       </a>
       <a
         href="https://github.com/kevin-crawford"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fab fa-github-square fa-2x" />
+        <i className="fab fa-github-square fa-2x" />
       </a>
       <a
         href="https://twitter.com/kdxcii_"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i class="fab fa-twitter-square fa-2x" />
+        <i className="fab fa-twitter-square fa-2x" />
       </a>
     </SocialLinks>
   </NavStyles>

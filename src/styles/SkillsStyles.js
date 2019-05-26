@@ -45,7 +45,7 @@ const SkillsIcon = styled.div`
   box-shadow: 0 0 0 5px #f2f3f7;
   line-height: 40px;
   position: absolute;
-  left: 42%;
+  left: 45%;
   @media (max-width: 992px) {
     left: 5%;
     top: -5%;

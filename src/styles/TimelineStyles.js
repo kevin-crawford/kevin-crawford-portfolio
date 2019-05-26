@@ -19,7 +19,7 @@ const TimelineCentered = styled.div`
     background: #f2f3f7;
     top: 20px;
     bottom: 20px;
-    margin-left: 29px;
+    margin-left: 37px;
   }
 `;
 
@@ -33,7 +33,7 @@ const TimelineEntry = styled.article`
 
 const TimelineInner = styled.div`
   position: relative;
-  margin-left: -20px;
+  margin-left: -10px;
 `;
 
 const TimelineInfo = styled.div`
